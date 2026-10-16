@@ -3,8 +3,8 @@ from cats.catsInfo import get_cats_info
 from bot.bot import main as run_bot
 from pathlib import Path
 
-salary_path = Path("./salary.txt")
-cats_path = Path("./text.txt")
+salary_path = Path("./salary/salary.txt")
+cats_path = Path("./cats/cats.txt")
 
 def main():
     print(total_salary(salary_path))
